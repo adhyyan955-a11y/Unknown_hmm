@@ -1,1 +1,88 @@
-# Unknown_hmm
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Galaxy Hub</title>
+
+<style>
+body{
+margin:0;
+font-family:Arial,sans-serif;
+background:linear-gradient(to bottom,#000428,#004e92);
+color:white;
+text-align:center;
+}
+
+header{
+padding:60px 20px;
+}
+
+h1{
+font-size:50px;
+margin:0;
+}
+
+p{
+font-size:20px;
+}
+
+button{
+padding:15px 35px;
+font-size:18px;
+border:none;
+border-radius:30px;
+background:#00d4ff;
+color:black;
+font-weight:bold;
+cursor:pointer;
+margin-top:20px;
+}
+
+section{
+padding:40px 20px;
+}
+
+.card{
+background:rgba(255,255,255,0.1);
+margin:20px;
+padding:20px;
+border-radius:20px;
+}
+</style>
+
+</head>
+
+<body>
+
+<header>
+<h1>🌌 Galaxy Hub</h1>
+
+<p>Dream • Technology • Future</p>
+
+<button onclick="alert('Welcome to Galaxy Hub 🚀')">
+Enter Galaxy
+</button>
+</header>
+
+<section>
+
+<div class="card">
+<h2>🎮 Gaming Zone</h2>
+<p>Enjoy next generation gaming experience.</p>
+</div>
+
+<div class="card">
+<h2>☕ Space Cafe</h2>
+<p>Relax with amazing food and drinks.</p>
+</div>
+
+<div class="card">
+<h2>🎬 Mini Theatre</h2>
+<p>Watch movies in a premium environment.</p>
+</div>
+
+</section>
+
+</body>
+</html>
